@@ -28,12 +28,12 @@ if (isset($_SESSION["user"])) {
 } else {
     $logged_in = false;
 }
-
+include '/lang.php';
 ?>
 
 <title>ContactManager</title>
 <link rel="stylesheet" href="skins/<?php echo $skin; ?>/style.css" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
 
